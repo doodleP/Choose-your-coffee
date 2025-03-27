@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5e3d6;
+    font-family: "Cormorant Garamond", serif;
+}
+
+.cup-container {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    animation: rotate-cup 2s ease-in-out infinite alternate;
+}
+
+/* Small rotation effect */
+@keyframes rotate-cup {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(3deg); }
+}
+
+/* Coffee moves slightly inside */
+.coffee {
+    animation: coffee-wave 2s ease-in-out infinite alternate;
+}
+
+@keyframes coffee-wave {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-3px); }
+}
+
+/* Milk moves slightly */
+.milk {
+    animation: milk-wave 2s ease-in-out infinite alternate;
+}
+
+@keyframes milk-wave {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-2px); }
+}
+
+/* Foam moves slightly */
+.foam {
+    animation: foam-wave 2s ease-in-out infinite alternate;
+}
+
+@keyframes foam-wave {
+    0% { transform: translateY(0px); }
+    100% { transform: translateY(-1px); }
+}
