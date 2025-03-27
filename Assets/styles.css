@@ -9,6 +9,38 @@ body{
 }
 
 
+.start-button{
+    display:flex;
+    justify-content: center;
+}
+.button{
+    margin: auto;
+    align-items: center;
+    font-size: 40px;
+    font-family: "Cormorant Garamond", serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    padding: 10px;
+    padding-left: 40px;
+    padding-right: 40px;
+    background-color: #F8F4E1;
+    border-style: none;
+    border-radius: 40px;
+    color:#5b3219;
+    box-shadow: #000000 0 5px 5px;
+    transition: background-color 0.15s, color 0.15s;
+}
+
+.button:hover{
+    background-color:#5b3219;
+    color: #F8F4E1;
+}
+
+.button:active{
+    background-color: #34291b;
+}
+
 .container{
     display: flex;
     flex-direction: column;
@@ -22,6 +54,8 @@ body{
     border-color: #543310;
     border-radius: 10px;
     background-image: url('imgs/bg.png');
+    justify-content: center;
+    align-items: center;
 }
 
 .navbar{
@@ -31,6 +65,8 @@ body{
     justify-content: space-around;
     color: #5b3219;
     background-color: #af6b3d;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
 }
 
 .navbar div {
@@ -100,8 +136,17 @@ body{
 }
 
 .footer{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 0;
     color: #ddbc95;
 }
+
+.coffee-start{
+    text-align: center;
+    margin-top: 30%;
+}
+
 
 .coffee-table > div > p{
     margin: 0;
@@ -124,23 +169,6 @@ body{
 }
 
 
-@keyframes zoomInOut {
-    0% {
-        transform: scale(1.1);
-    }
-    100% {
-        transform: scale(1.2);
-    }
-}
-
-
-@keyframes steam {
-    0% { opacity: 0.1; transform: translateY(5px) scale(1); }
-    50% { opacity: 0.3; transform: translateY(-10px) scale(1.1); }
-    100% { opacity: 0; transform: translateY(-20px) scale(1.2); }
-}
-
-
 .steam {
     position: absolute;
     width: 30px;
@@ -155,6 +183,10 @@ body{
 .coffee-item {
     position: relative;
     display: inline-block;
+    text-align: center;
+}
+
+.text p{
     text-align: center;
 }
 
@@ -176,6 +208,54 @@ body{
 .steam:nth-child(4) {
     left: 40px;
     animation-delay: 2s;
+}
+
+.loading-bar {
+    width: 300px;
+    height: 20px;
+    background-color:#cf774a;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-top: 10px;
+    align-self: center;
+}
+
+.progress {
+    height: 100%;
+    width: 0;
+    background-color:  #5b3219;
+    animation: load-animation 3s ease-in-out forwards;
+}
+
+.brewing{
+    font-weight: 300;
+    font-size: 40px;
+    font-style: italic;
+    color: #5b3219;
+}
+
+@keyframes load-animation {
+    0% {
+        width: 0;
+    }
+    100% {
+        width: 100%;
+    }
+}
+
+@keyframes zoomInOut {
+    0% {
+        transform: scale(1.1);
+    }
+    100% {
+        transform: scale(1.2);
+    }
+}
+
+@keyframes steam {
+    0% { opacity: 0.1; transform: translateY(5px) scale(1); }
+    50% { opacity: 0.3; transform: translateY(-10px) scale(1.1); }
+    100% { opacity: 0; transform: translateY(-20px) scale(1.2); }
 }
 
 @keyframes jiggle {
