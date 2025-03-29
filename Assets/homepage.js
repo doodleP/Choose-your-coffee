@@ -40,31 +40,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
     // About page redirect
     document.querySelector(".navbar div:nth-child(4)").addEventListener("click", function() {
-        let audio = new Audio("Assets/sounds/click-sound.wav");
-        audio.play();
+        soundEffect.play();
 
         setTimeout(() => {
             window.location.href = "about.html";
-        }, audio.duration * 1000);
+        }, soundEffect.duration * 1000);
     });
 
     // Back page redirect
     document.querySelector(".navbar div:nth-child(2)").addEventListener("click", function() {
-        let audio = new Audio("Assets/sounds/click-sound.wav");
-        audio.play();
+        soundEffect.play();
 
         setTimeout(() => {
             window.location.href = "index.html";
-        }, audio.duration * 1000);
+        }, soundEffect.duration * 1000);
     });
 
     // Restart page redirect
     document.querySelector(".navbar div:nth-child(3)").addEventListener("click", function() {
-        let audio = new Audio("Assets/sounds/click-sound.wav");
-        audio.play();
+        soundEffect.play();
 
         setTimeout(() => {
             window.location.href = "index.html";
-        }, audio.duration * 1000);
+        }, soundEffect.duration * 1000);
     });
 });

@@ -5,7 +5,7 @@ body{
     font-style: normal;
     font-optical-sizing: auto;
     color: #fef1cf;
-    background-image: url('imgs/cafe\ bg.jpg');
+    background-image: url('imgs/cafe-bg.jpg');
 }
 
 /*start page*/
@@ -57,11 +57,11 @@ body{
     border-color: #543310;
     border-radius: 10px;
     background-image: url('imgs/bg.png');
-    justify-content: center;
     align-items: center;
 }
 
 .navbar{
+    position: sticky;
     display: flex;
     height: 50px;
     width: 100%;
@@ -143,7 +143,7 @@ body{
     text-align: center;
     margin-top: 20px;
     margin-bottom: 0;
-    color: #ddbc95;
+    color: #ffffff;
 }
 
 .coffee-start{
@@ -190,8 +190,22 @@ body{
     text-align: center;
 }
 
-.text p{
+/*about*/
+
+.text{
+    margin: auto;
     text-align: center;
+    color: #5b3219;
+}
+
+#about .navbar{
+    flex-basis: auto;
+    justify-content: space-between;
+}
+
+#about .navbar div{
+    margin-left: 10px;
+    margin-right: 10px;
 }
 
 .steam:nth-child(1) {
@@ -215,6 +229,10 @@ body{
 }
 
 /*loading transition page*/
+
+.loading-container{
+    margin: auto;
+}
 
 .loading-bar {
     width: 300px;
@@ -270,4 +288,15 @@ body{
     50% { transform: rotate(2deg); }
     75% { transform: rotate(-2deg); }
     100% { transform: rotate(0deg); }
+}
+
+a, a:visited, a:active{
+    text-decoration: none;
+    color:  #5b3219;
+    transition: color 0.15s;
+
+}
+
+a:hover{
+    color: rgb(251, 239, 224);
 }
