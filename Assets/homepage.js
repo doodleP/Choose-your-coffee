@@ -65,3 +65,9 @@ document.addEventListener("DOMContentLoaded", function () {
         }, soundEffect.duration * 1000);
     });
 });
+
+const snowFlicks = document.querySelectorAll(".snowflake");
+snowFlicks.forEach(snowflake => {
+    let randomDelay = Math.random() * 2.5;
+    snowflake.style.animationDelay = `${randomDelay}s`;
+});
