@@ -177,7 +177,7 @@ body{
     position: absolute;
     width: 30px;
     height: 30px;
-    background: radial-gradient(white, rgba(255, 255, 255, 0)); /* Soft white steam effect */
+    background: radial-gradient(white, rgba(255, 255, 255, 0));
     border-radius: 50%;
     opacity: 0;
     animation: steam 2.5s infinite linear;
