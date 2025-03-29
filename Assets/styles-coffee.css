@@ -70,7 +70,7 @@ body{
     align-items: center;
 }
 
-.cup {
+.cup{
     margin-right: 5px;
     position: relative;
     border: 5px solid #a68671;
@@ -80,6 +80,7 @@ body{
     padding: 5px;
     box-sizing: border-box;
 }
+
 .coffee-liquid {
     position: absolute;
     bottom: 5px;
@@ -92,7 +93,7 @@ body{
 
 .coffee-liquid p{
     text-align: center;
-    color: #dcd8c4;
+    color: #ebe6d0;
 }
 .coffee-text p{
     text-align: center;
@@ -118,11 +119,28 @@ footer {
 
 /*espresso*/
 
-.cup{
+#espresso .cup{
     width: 180px;
     height: 200px;
 }
 
-.coffee-liquid{
+#espresso .coffee-liquid{
     height: 60%;
+}
+
+/*americano*/
+
+#americano .cup{
+    height: 250px;
+    width: 180px;
+}
+
+#americano .coffee-liquid{
+    height: 60%;
+}
+
+#americano .water{
+    height: 33%;
+    background-color: rgb(171, 191, 206);
+    text-align: center;
 }
