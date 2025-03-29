@@ -8,6 +8,7 @@ body{
     background-image: url('imgs/cafe\ bg.jpg');
 }
 
+/*start page*/
 
 .start-button{
     display:flex;
@@ -40,6 +41,8 @@ body{
 .button:active{
     background-color: #34291b;
 }
+
+/*general layout*/
 
 .container{
     display: flex;
@@ -81,6 +84,7 @@ body{
     transform: scale(1.1);
 }
 
+/*homepage*/
 
 .title{
     display:flex;
@@ -209,6 +213,8 @@ body{
     left: 40px;
     animation-delay: 2s;
 }
+
+/*loading transition page*/
 
 .loading-bar {
     width: 300px;
