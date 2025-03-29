@@ -144,3 +144,86 @@ footer {
     background-color: rgb(171, 191, 206);
     text-align: center;
 }
+
+/*flat-white*/
+
+#flat-white .cup{
+    height: 180px;
+    width: 200px;
+}
+
+#flat-white .coffee-liquid{
+    height: 80%;
+}
+
+#flat-white .steamed-milk{
+    height: 66%;
+    background-color: rgb(226, 197, 156);
+    text-align: center;
+}
+
+#flat-white .milk-foam{
+    height:4%;
+    background-color: rgb(243, 221, 196);
+}
+
+/*latte*/
+
+#latte .cup{
+    height: 200px;
+    width: 200px;
+}
+
+#latte .coffee-liquid{
+    height: 80%;
+}
+
+#latte .steamed-milk{
+    height: 60%;
+    background-color: rgb(226, 197, 156);
+    text-align: center;
+}
+
+#latte .milk-foam{
+    height:8%;
+    background-color: rgb(243, 221, 196);
+}
+
+/*macchiato*/
+
+#macchiato .cup{
+    height: 300px;
+    width: 180px;
+}
+
+#macchiato .coffee-liquid{
+    height: 80%;
+}
+
+#macchiato .milk-foam{
+    height:20%;
+    background-color: rgb(243, 221, 196);
+    text-align: center;
+}
+
+#mocha .cup{
+    height: 320px;
+    width: 160px;
+}
+
+#mocha .coffee-liquid{
+    height: 85%;
+}
+
+#mocha .steamed-milk{
+    height: 30%;
+    background-color: rgb(243, 221, 196);
+    text-align: center;
+}
+
+#mocha .chocolate-syrup{
+    height: 35%;
+    background-color:#56321b;
+    color:#ebe6d0;
+    text-align: center;
+}
