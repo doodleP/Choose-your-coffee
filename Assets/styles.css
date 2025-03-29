@@ -154,6 +154,10 @@ body{
 
 .coffee-table > div > p{
     margin: 0;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-size: 13px;
+    font-style: normal;
 }
 
 .coffee-table>div{
@@ -194,8 +198,13 @@ body{
 
 .text{
     margin: auto;
+    padding: 15px;
     text-align: center;
-    color: #5b3219;
+    color: #fff0e3;
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-size: 15px;
+    font-style: normal;
 }
 
 #about .navbar{
@@ -292,11 +301,11 @@ body{
 
 a, a:visited, a:active{
     text-decoration: none;
-    color:  #5b3219;
+    color: #fff0e3;
     transition: color 0.15s;
 
 }
 
 a:hover{
-    color: rgb(251, 239, 224);
+    color:  #5b3219;
 }
