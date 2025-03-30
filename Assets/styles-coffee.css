@@ -179,11 +179,16 @@ footer {
     height: 66%;
     background-color: rgb(226, 197, 156);
     text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 #flat-white .milk-foam{
     height:4%;
     background-color: rgb(243, 221, 196);
+    text-align: center;
+    font-size: 10px;
 }
 
 /*latte*/
@@ -206,6 +211,8 @@ footer {
 #latte .milk-foam{
     height:8%;
     background-color: rgb(243, 221, 196);
+    text-align: center;
+    font-size: 12px;
 }
 
 /*macchiato*/
@@ -267,6 +274,7 @@ footer {
 #cappuccino .milk-foam{
     height:15%;
     background-color: rgb(243, 221, 196);
+    text-align: center;
 }
 
 /*affogato*/
