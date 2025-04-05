@@ -17,7 +17,7 @@ body{
 .button{
     margin: auto;
     align-items: center;
-    font-size: 40px;
+    font-size: 2.4rem;
     font-family: "Cormorant Garamond", serif;
     font-optical-sizing: auto;
     font-weight: 300;
@@ -75,7 +75,7 @@ body{
 .navbar div {
     display: inline-block;
     font-weight: 700;
-    font-size: 18px;
+    font-size: 1.2rem;
     cursor: pointer;
     transition: transform 0.2s ease-in-out;
 }
@@ -157,7 +157,7 @@ body{
     margin: 0;
     font-family: "Fuzzy Bubbles", sans-serif;
     font-weight: 700;
-    font-size: 13px;
+    font-size: 0.8rem;
     font-style: normal;
 }
 
@@ -347,4 +347,22 @@ a:hover{
     0% { opacity: 0.5; transform: translateY(5px) scale(1); }
     50% { opacity: 0.8; transform: translateY(-10px) scale(1.1); }
     100% { opacity: 0.3; transform: translateY(-20px) scale(1.2); }
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    
+    .coffee-item {
+        width: 100%;
+        text-align: center;
+    }
+    
+    .coffee-item img {
+        max-width: 100%;
+        height: auto;
+    }
 }
