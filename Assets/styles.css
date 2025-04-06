@@ -86,13 +86,39 @@ body{
 
 /*homepage*/
 
-.title{
-    display:flex;
-    justify-content: center;
-    padding-top: 15px;
+.coffee-title {
+    text-align: center;
+    margin-top: 1rem;
+    height: 28%;
 }
-.title-pic{
-   height: 180px;
+
+.top-text {
+    font-family: 'Playfair Display', serif;
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #7a4f2c;
+}
+
+.perfect {
+    position: relative;
+    font-family: 'Playfair Display', serif;
+    font-size: 2rem;
+    margin-top: 5px;
+    left: -60px;
+    bottom: 10px;
+    color: #7a4f2c;
+}
+
+.coffee {
+    position: relative;
+    font-family: 'Pacifico', cursive;
+    font-size: 5.4rem;
+    color: #d29053;
+    text-shadow: 2px 2px #7a4f2c;
+    bottom: 65px;
+    left: 28px;
+
 }
 
 .coffee-table{
@@ -142,9 +168,20 @@ body{
 
 .footer{
     text-align: center;
-    margin-top: 20px;
-    margin-bottom: 0;
+    margin: auto;
     color: #ffffff;
+}
+
+footer{
+    position: relative;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 110px;
+    color: #fff0e3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .coffee-start{
