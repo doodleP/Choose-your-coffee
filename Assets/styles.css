@@ -10,6 +10,39 @@ body{
 
 /*start page*/
 
+.welcome-text{
+    text-align: center;
+    margin-top: 1.5rem;
+}
+.welcome{
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-size: 3.5rem;
+    font-style: normal;
+    margin: 0;
+}
+
+.to{
+    font-family: "Fuzzy Bubbles", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    margin:0;
+}
+.brewbie{
+    font-family: 'Pacifico', cursive;
+    font-size: 5.4rem;
+    color: #d29053;
+    text-shadow: 2px 2px #7a4f2c;
+    margin: 0;
+    position: relative;
+    bottom: 3rem;
+}
+
+.bean-img{
+    height: 250px;
+    margin:0;
+}
+
 .start-button{
     display:flex;
     justify-content: center;
@@ -25,10 +58,10 @@ body{
     padding: 10px;
     padding-left: 40px;
     padding-right: 40px;
-    background-color: #F8F4E1;
+    background-color: #fcf0d3;
     border-style: none;
     border-radius: 40px;
-    color:#5b3219;
+    color:#864d29;
     box-shadow: #000000 0 5px 5px;
     transition: background-color 0.15s, color 0.15s;
 }
@@ -182,11 +215,6 @@ footer{
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.coffee-start{
-    text-align: center;
-    margin-top: 30%;
 }
 
 
